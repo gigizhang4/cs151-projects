@@ -1,2 +1,2 @@
 # cs151-projects
-learning projects for cs151
+In this project, I recreated a webpage based on a screenshot using HTML and CSS. 
