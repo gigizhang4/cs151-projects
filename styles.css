@@ -1,0 +1,276 @@
+.blackbox{
+    margin: 10px auto;           
+    border-collapse: collapse;  
+    border-top:35px solid rgb(25, 24, 24);
+    border-right:50px solid rgb(25, 24, 24);
+    border-left:50px solid rgb(25, 24, 24);
+    border-bottom:20px solid rgb(25, 24, 24);
+    color :rgb(217, 214, 214);
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+
+  .blackbox td{
+    border-top: 1px solid rgb(214, 214, 214);  
+    padding: 10px;
+    background: rgb(25, 24, 24);    
+    
+  }
+  .topone{
+    background:rgb(25, 24, 24);
+    color:rgb(25, 24, 24)
+  }
+
+  #loc-fav{
+       
+      font-size:10px; 
+      letter-spacing: 5px; 
+  }
+  #blackbox-number {
+      vertical-align: top; 
+      line-height: 1; 
+      text-align: left;
+      font-size: 100px;  
+      background: rgb(25, 24, 24); 
+      padding-left: 1px;
+  }
+  #blackbox-no {
+      vertical-align: top; 
+      text-align: right;
+      text-decoration: underline; 
+      font-size: 45px; 
+      text-underline-offset: 10px; 
+      padding-right: 1px}
+  
+  body{
+      padding-top: 10px;
+      font-size: 13px;        
+      font-family: 'Helvetica Neue', sans-serif; 
+      
+  }
+
+  .sayhello{
+      position: relative;
+      display: block;
+      margin: 0 auto;      
+      width: 100%;       
+      
+  }
+  .sayhello img {
+      width: 100%;             
+      height: auto;           
+      display: block;
+}
+  .overlaytext{
+      position: absolute;
+      top: 25%;                
+      left: 50%;
+      transform: translateX(-50%);
+      font-weight: bold;
+      color: rgb(190,162,114);
+      letter-spacing: 3px;
+      font-size: 14px;
+      text-align: center;
+      white-space: nowrap;
+      
+  }
+
+  .block{
+      position: absolute;
+      top: 35%;                
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      width: 80%;
+  }
+  .description{
+      color: #000000;
+      font-size: 13px;
+      line-height: 1.4;
+      margin-bottom: 16px;          
+
+
+  }
+
+  .intouch{
+      padding: 12px 30px;
+      border: 2px solid rgb(0, 0, 0);
+      background: none;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 14px;
+      letter-spacing: 2px;
+      cursor: pointer;
+      border-radius: 0;
+      padding: 12px 36px;
+      border-width: 2px;
+      font-size: 12px;
+      letter-spacing: 2px;
+
+
+  }
+
+  body { 
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #fff; }
+
+  footer {
+    background: #000;
+    padding: 0 0 40px; }
+
+  .footer-table { 
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: #000; }
+
+  .footer-table td {
+    padding: 10px 16px;
+    vertical-align: top;
+    text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+    font-size: 12px;
+    color: #fff;
+    font-weight: normal;
+  } 
+  
+  .top-table td {
+    padding: 40px 64px; }  
+
+  
+  .top-table tr:first-child td:first-child {
+    border-right: 1px solid #444; }
+
+  .full-divider {
+    height: 1px;
+    background: #444;
+    width: 100%;
+    margin: 0; }
+
+  
+  #top-a1 {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 4px; }
+
+
+  .top-link {
+    color: #fff;
+    text-decoration: none; }
+
+  
+  #top-a2 {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 4px; }
+
+  .signup-boxes {
+    margin-top: 8px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+  }
+  .signup-boxes input {
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    flex: 1;
+  }
+  .btn-signup {
+    padding: 8px 16px;
+    border: 2px solid #ddd;
+    background: transparent;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+    text-align: center;
+    display: inline-block;
+  }
+
+  
+  .headquarter-office td { 
+    padding: 20px 16px; 
+    font-size: 16px; 
+    letter-spacing: 4px; }
+
+  
+  #place-name td { 
+    padding: 12px 16px; 
+    font-size: 14px; 
+    letter-spacing: 4px; 
+    color: #fff; }
+
+ 
+  #address-name td {
+    padding: 8px 16px;
+    font-size: 12px;
+     line-height: 1.6;
+      color: #fff; }
+  #address-name a { 
+    color: #fff;
+    text-decoration: none; 
+    font-size: 12px; }
+
+  
+  .tellabel {
+    color: rgb(190,162,114);
+    font-size: 12px; }
+
+  .intouch {
+    display: inline-block;
+    padding: 12px 36px;
+    border: 2px solid black;
+    background: none;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: black;
+    text-align: center;
+}
+
+  .btn-contact {
+    display: inline-block;
+    padding: 10px 24px;
+    border: 2px solid #ddd;
+    background: transparent;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+    text-align: center;
+  }
+
+  #top-a2 {
+text-align: left;
+font-size: 14px;
+letter-spacing: 4px;
+color: rgb(190,162,114); 
+}
+
+
+.headquarter-office td {
+padding: 20px 16px;
+font-size: 16px;
+letter-spacing: 4px;
+color: rgb(190,162,114);
+}
+
+#blackbox-no a #blackbox-number a{
+    text-decoration: none;
+}
+
+.intouch {
+    text-decoration: none;
+    color: rgb(0, 0, 0);        
+}
+
+.top-link {
+    color: #fff;
+    text-decoration: none; }
